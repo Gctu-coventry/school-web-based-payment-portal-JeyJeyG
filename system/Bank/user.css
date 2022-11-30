@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif; /* Change your font family */
+}
+
+
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  #0a0430;
+    position: sticky;
+    top: 0;
+
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+
+}
+.navbar ul li{
+    font-family: century;
+    font-size: 1.1rem;
+    font-weight: bold;
+
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 25px;
+    transition: all .5s ease;
+
+}
+
+.navbar ul li a:hover{
+    background-color: #fff;
+    color: black;
+    box-shadow: 0 0 10px white;
+}
+
+  
+  .content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .content-table thead tr {
+    background-color: #120364;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .content-table th,
+  .content-table td {
+    padding: 12px 15px;
+  }
+  
+  .content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  .content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+  }
+  
+  .content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #0b025e;
+  }
+  
+  .content-table tbody tr.active-row {
+    font-weight: bold;
+    color: #260269;
+  }
+  
+  div{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+    align-items: center;
+    margin-left: 25px;
+    border: #0b025e;
+    padding: 5px;
+    color: #fff;
+  }
+  .form-group
+{
+  align-items: center;
+    margin-left: 25px;
+    border: #0b025e;
+    
+}
+.form-group input{
+  border-radius: 10px;
+  width: 20%;
+  padding: 5px;
+}
+.container{
+  border-width: 4px;
+  margin: 25px;
+  background-color: #0b025e;
+}
+

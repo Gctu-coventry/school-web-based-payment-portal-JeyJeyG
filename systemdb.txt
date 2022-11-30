@@ -1,0 +1,17 @@
+
+
+
+cart table :
+
+CREATE TABLE `Transaction ` (
+  `id` int(100) NOT NULL AUTO_INCREMENT,
+  `accountid` int(100) NOT NULL,
+  `username` varchar(100) NOT NULL,
+  `email` varchar(100) NOT NULL,
+  `password` varchar(100) NOT NULL,
+  `initial` int(100) NOT NULL,
+`token` int(100) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=0 DEFAULT CHARSET=utf8mb4
+
+
